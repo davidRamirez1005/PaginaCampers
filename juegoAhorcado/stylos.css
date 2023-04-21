@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: blue;
+}
+nav div{
+    display: flex;
+    justify-content: center;
+}
+nav div p{
+    font-size: 50px;
+    color: white;
+}
+.figura img {
+    padding-top: 10%;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+}
+.seccion{
+    padding-top: 10%;
+
+}
+.seccion button{
+    display: flex;
+    margin: auto;
+}
+.contenedor-letra{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-letra span {
+    height: 24px;
+}
+.letras{
+    display: flex;
+    gap: 1rem;
+    margin-top: 10%;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 600;
+} 
+.cajita{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    border: none;
+    background-image: url(/poo/imagenes/XiP3qS0.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 15%;
+    text-align: center;
+    height: 40px;
+    text-decoration: double;
+}
+.casco{
+    display: flex;
+    height: 100px;
+}
+.boton{
+    display: flex;
+    border-radius: 20px;
+    border: none;
+    width: 15%;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    background-image: url(/poo/imagenes/gatito.png);
+    background-size: cover;
+    background-position: center;
+    color: rgb(6, 0, 90);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.74);
+    margin-top: 47px;
+    margin-left: 45px;  
+}
+.boton1{
+    display: flex;
+    border-radius: 20px;
+    border: none;
+    width: 20%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background-image: url(/poo/imagenes/XiP3qS0.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.74);
+}
