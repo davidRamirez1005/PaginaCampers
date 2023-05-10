@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-image: url(/pruebaMayo9/img/istockphoto-1437048444-170667a.jpg);
+    margin-top: 1%;
+    padding: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 70%;
+    height: 100%;
+    background-repeat: repeat;
+    background-attachment:fixed;
+    border-style: none;
+    box-shadow: 0px 1px 14px 3px #607d8b96;
+    
+}
+html{
+    max-height: fit-content;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    font-size: 9vh;
+    font-weight: 800;
+    font-variant: small-caps;
+    color:white;
+    box-shadow: 0px 1px 14px 3px #607d8b96;
+}
+body{
+    background-image: url(/pruebaMayo9/img/earth-horizon-distant-planet-milky-way-blue-planet-astronomy-3840x2160-8987.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.boton button{
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    background: linear-gradient(to right, #50cdff, #be33ff, #00bfff, #9400d3);
+    color: rgb(39, 31, 31);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-size: 300% 100%;
+    
+}
+button:hover {
+    transition:background-position 3s;
+    background-position: 100% 0;
+}
+h2{
+    color: #ff4a72;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+.astro{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.img1{
+    position: relative;
+  animation-name: example;
+  animation-duration: 10s, 5s,3s;
+  animation-direction: reverse; 
+    display: flex;
+    margin-right: 7%;
+    margin-top: 5%;
+    width: 12%;
+}
+.img2{
+    display: flex;
+    margin-right: 7%;
+    margin-top: 5%;
+    width: 30%;
+    margin-right: 16%;
+}
+@keyframes example {
+    0%   { right:0px; top:0px;}
+    25%  { right:200px; top:0px;}
+    50%  { right:200px; top:30px}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+
+td{
+    color: white;
+    font-size: 18px;
+    
+}
+th{
+    color: whitesmoke;
+    font-size: 25px;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+}

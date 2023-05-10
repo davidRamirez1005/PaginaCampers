@@ -1,0 +1,261 @@
+{
+    "reclutas": [
+      {
+        "id": 1,
+        "nombre": "juan Diego",
+        "edad": 17,
+        "telefono":3105869914,
+        "email":"juandiego@gmail.com",
+        "direccion":"calle 1A #16-99",
+        "fecha_nacimiento":"11/02/2006",
+        "numero_identificacion":1096065071,
+        "fecha_ingreso":"2022-07-09",
+        "id_team":1
+
+      },
+      {
+        "id": 2,
+        "nombre": "jose david",
+        "edad": 19,
+        "telefono":3177289785,
+        "email":"juandiego@gmail.com",
+        "direccion":"calle 1A #16-99",
+        "fecha_nacimiento":"11/02/2006",
+        "numero_identificacion":1097910199,
+        "fecha_ingreso":"2022-05-03",
+        "id_team":2
+      },
+      {
+        "id": 3,
+        "nombre": "saul raul",
+        "edad": 16,
+        "telefono":31547895624,
+        "email":"juandiego@gmail.com",
+        "direccion":"calle 1A #16-99",
+        "fecha_nacimiento":"11/02/2006",
+        "numero_identificacion":14789654231,
+        "fecha_ingreso":"2022-01-15",
+        "id_team":3
+      },
+      {
+        "id": 4,
+        "nombre": "benjamin ramirez",
+        "edad": 22,
+        "telefono":3145896523,
+        "email":"juandiego@gmail.com",
+        "direccion":"calle 1A #16-99",
+        "fecha_nacimiento":"11/02/2006",
+        "numero_identificacion":18975026589,
+        "fecha_ingreso":"2022-08-13",
+        "id_team":4
+      },
+      {
+        "id": 5,
+        "nombre": "olga lucia",
+        "edad": 16,
+        "telefono":31356202504,
+        "email":"juandiego@gmail.com",
+        "direccion":"calle 1A #16-99",
+        "fecha_nacimiento":"11/02/2006",
+        "numero_identificacion":1024556589,
+        "fecha_ingreso":"2021-05-03",
+        "id_team":5
+      },
+      {
+        "id": 6,
+        "nombre": "jose Antonio",
+        "edad": 27,
+        "telefono":317458201201,
+        "email":"juandiego@gmail.com",
+        "direccion":"calle 1A #16-99",
+        "fecha_nacimiento":"11/02/2006",
+        "numero_identificacion":102489652784,
+        "fecha_ingreso":"2022-03-03",
+        "id_team":6
+      },
+      {
+        "id": 7,
+        "nombre": "luna mogotocoro",
+        "edad": 20,
+        "telefono":310256489652,
+        "email":"juandiego@gmail.com",
+        "direccion":"calle 1A #16-99",
+        "fecha_nacimiento":"11/02/2006",
+        "numero_identificacion":1023545458,
+        "fecha_ingreso":"2022-09-03",
+        "id_team":7
+      },
+      {
+        "id": 8,
+        "nombre": "manuel antonio",
+        "edad": 15,
+        "telefono":31205469986,
+        "email":"juandiego@gmail.com",
+        "direccion":"calle 1A #16-99",
+        "fecha_nacimiento":"11/02/2006",
+        "numero_identificacion":10364523102,
+        "fecha_ingreso":"2022-04-23",
+        "id_team":8
+      }
+    ],
+    "team": [
+      {
+        "id": 1,
+        "nombre": "sputnik",
+        "trainer": "carlos"
+      },
+      {
+        "id": 2,
+        "nombre": "artemis",
+        "trainer": "miguel"
+      },
+      {
+        "id": 3,
+        "nombre": "salon3",
+        "trainer": "jolver"
+      },
+      {
+        "id": 4,
+        "nombre": "salon4",
+        "trainer": "profe"
+      },
+      {
+        "id": 5,
+        "nombre": "salon5",
+        "trainer": "profesor 2"
+      },
+      {
+        "id": 6,
+        "nombre": "salon3",
+        "trainer": "jolver"
+      },
+      {
+        "id": 7,
+        "nombre": "salon4",
+        "trainer": "profe"
+      },
+      {
+        "id": 8,
+        "nombre": "salon5",
+        "trainer": "profesor 2"
+      }
+    ],
+    "skill": [
+      {
+        "id": 1,
+        "nombre": "ser"
+      },
+      {
+        "id": 2,
+        "nombre": "ingles"
+      },
+      {
+        "id": 3,
+        "nombre": "review"
+      },
+      {
+        "id": 4,
+        "nombre": "skill"
+      },
+      {
+        "id": 5,
+        "nombre": "ingles"
+      },
+      {
+        "id": 3,
+        "nombre": "review"
+      },
+      {
+        "id": 4,
+        "nombre": "skill"
+      },
+      {
+        "id": 5,
+        "nombre": "ingles"
+      }
+    ],
+    "modulo_skill": [
+      {
+        "id": 1,
+        "nombre": "a",
+        "id_skill": 1
+      },
+      {
+        "id": 2,
+        "nombre": "b",
+        "id_skill": 2
+      },
+      {
+        "id": 3,
+        "nombre": "c",
+        "id_skill": 3
+      },
+      {
+        "id": 4,
+        "nombre": "a",
+        "id_skill": 4
+      },
+      {
+        "id": 5,
+        "nombre": "b",
+        "id_skill": 5
+      },
+      {
+        "id": 6,
+        "nombre": "c",
+        "id_skill": 6
+      },
+      {
+        "id": 7,
+        "nombre": "a",
+        "id_skill": 7
+      },
+      {
+        "id": 8,
+        "nombre": "b",
+        "id_skill": 8
+      }
+    ],
+    "evaluacion":[
+      {
+        "id_recluta": 1,
+        "id_modulo": 1,
+        "nota": 3
+      },
+      {
+        "id_recluta": 2,
+        "id_modulo": 2,
+        "nota": 4
+      },
+      {
+        "id_recluta": 3,
+        "id_modulo": 3,
+        "nota": 5
+      },
+      {
+        "id_recluta": 4,
+        "id_modulo": 4,
+        "nota": 4
+      },
+      {
+        "id_recluta": 5,
+        "id_modulo": 5,
+        "nota": 3
+      },
+      {
+        "id_recluta": 6,
+        "id_modulo": 6,
+        "nota": 2
+      },
+      {
+        "id_recluta": 7,
+        "id_modulo": 7,
+        "nota": 1
+      },
+      {
+        "id_recluta": 8,
+        "id_modulo": 8,
+        "nota": 2
+      }
+    ]
+  }
