@@ -16,6 +16,8 @@
     <script src="./js/modulosRecluta.js"defer type="module"></script>
     <script src="./js/skillSpecifico.js"defer type="module"></script>
     <script src="./js/reclutaReprobado.js"defer type="module"></script>
+    <script src="./js/reclutas.js"defer type="module"></script>
+
   <link rel="stylesheet" href="./css/index.css">
 
     <style>
@@ -35,7 +37,7 @@
       <img class="img2 " src="./img/logoWhite.png" alt="">
       <img class="img1 " src="./img/astronauta.png" alt="">
     </div>
-    <div class="container">
+<div class="container">
       <!-- titulo -->
       <!-- inicia primera fila -->
   <div class="row">
@@ -204,7 +206,75 @@
             </div>
             </div>
         </div>
-    </div>
+        <!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
+        <br>
+        <h1>Reclutas</h1>
+        <section class="crud">
+          <article>
+            <h2 class="crud-title">Agregar Recluta</h2>
+            <form class="crud-form" style="display: grid;">
+              <input type="text" name="nombre" placeholder="nombre" required />
+              <input
+                type="text"
+                name="edad"
+                placeholder="edad"
+                required
+              />
+              <input type="text" name="telefono" placeholder="telefono" required />
+              <input type="text" name="email" placeholder="email" required />
+              <input type="text" name="direccion" placeholder="direccion" required />
+              <input type="date" name="fecha_nacimiento" placeholder="fecha nacimiento" required />
+              <input type="text" name="numero_identificacion" placeholder="numero identificacion" required />
+              <input type="text" name="fecha_ingreso" placeholder="fecha ingreso" required />
+              <input type="text" name="id_team" placeholder="id team" required />
+              <br />
+              <div class="boton">
+                <button type="submit" value="Enviar" > enviar</button>
+                <input type="hidden" name="id" />
+              </div>
+            </form>
+          </article>
+          <article>
+            <h2>Ver Recluta</h2>
+  </div>
+</div>
+<div class="table-responsive">
+  <table class="table table-primary crud-tableF">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>edad</th>
+        <th>telefono</th>
+        <th>email</th>
+        <th>direccion</th>
+        <th>fecha nacimiento</th>
+        <th>numero identificacion</th>
+        <th>fecha ingreso</th>
+        <th>id team</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <template id="crud-templateF">
+      <tr>
+        <td class="nameRecluta a"></td>
+        <td class="edadRecluta a"></td>
+        <td class="telefonoRecluta a"></td>
+        <td class="emailRecluta a"></td>
+        <td class="direccionRecluta a"></td>
+        <td class="nacimientoRecluta a"></td>
+        <td class="idenRecluta a"></td>
+        <td class="ingresoRecluta a"></td>
+        <td class="teamRecluta a"></td>
+        <td>
+          <button class="edit btn2">Editar</button>
+          <button class="delete btn2">Eliminar</button>
+        </td>
+      </tr>
+    </template>
+  </table>
+</div>
+        
   </main>
   <footer>
     <br><br><br>
